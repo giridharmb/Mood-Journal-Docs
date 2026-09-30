@@ -1,13 +1,13 @@
 # Mood Tracker privacy policy
 
-Effective date: September 26, 2026
+Effective date: September 29, 2026
 
 This policy describes Mood Tracker's journal app, optional features, support correspondence and these documentation pages. For privacy questions, contact [gmb234789@gmail.com](mailto:gmb234789@gmail.com).
 
 ## At a glance
 
 - Your journal is stored on your device. Core journaling does not require a developer-managed account.
-- Private iCloud sync, AI features, Siri access, reminders and voice recording are optional. They start off.
+- Private iCloud sync, on-device AI reflections, reminders, app lock and voice recording are optional. They start off. Ask my journal, Siri journal access and cloud-assisted AI are disabled.
 - The app has no advertising, tracking or third-party analytics SDK and does not sell journal data.
 - Sharing and full backups can disclose sensitive information. Review what you share.
 
@@ -21,29 +21,29 @@ Journal files are stored in the app's device storage using iOS file protection a
 
 Private sync is off until you enable it. When enabled, the complete journal, including private written information and recordings, is uploaded to your Apple account's private CloudKit database. Other installations using the same account and container can merge or restore that journal. Network connectivity, account status and service availability affect synchronization.
 
-This is separate from Circle sharing. Enabling private sync does not publish your complete journal to Circle participants. Apple operates iCloud under its own [privacy policy](https://www.apple.com/legal/privacy/). Mood Tracker does not operate a separate journal-storage server. This policy does not promise end-to-end encryption for CloudKit data.
+Private sync does not share your journal with other people. Apple operates iCloud under its own [privacy policy](https://www.apple.com/legal/privacy/). Mood Tracker does not operate a separate journal-storage server. This policy does not promise end-to-end encryption for CloudKit data.
 
-## Circle and exported files
+## PDF reports and exported files
 
-Circle uploads only the aggregate report snapshot you explicitly publish: its title, dates, mood counts, check-in/day counts and average wellbeing where available. Invited participants receive read-only access through Apple's sharing system. Circle does not include individual journal notes or voice recordings. Publishing a replacement snapshot updates what existing participants can access.
+Reports are shared only as PDF files you explicitly export. Invitations, participant management, incoming shared reports and online report publishing are disabled. Private text is excluded unless you choose to include it; voice recordings are excluded.
 
-PDF, HTML and CSV reports are generated on your device and shared only through your chosen export/share action. Voice recordings are excluded. Ordinary reports exclude private text by default; enabling private-text inclusion can disclose notes and other sensitive descriptions. Reports from Ask my journal exclude private text. Full JSON backups include the complete journal, including private text and recordings.
+PDF reports are generated on your device and shared only through your chosen export/share action. Voice recordings are excluded. Ordinary reports exclude private text by default; enabling private-text inclusion can disclose notes and other sensitive descriptions. Full JSON backups include the complete journal, including private text and recordings.
 
-A recipient or destination service can retain, forward, print or screenshot information. Removing a participant or published report cannot recall copies already made. The privacy practices of email, storage and messaging services you choose also apply.
+A recipient or destination service can retain, forward, print or screenshot information. This version does not revoke online reports published with an older version or recall copies already made. The privacy practices of email, storage and messaging services you choose also apply.
 
 ## Optional on-device AI
 
-AI features use the available on-device Apple Intelligence model, without a cloud AI fallback in the app. AI Suggestions uses structured summaries to select existing ideas or write reflection questions. Private note, treatment, symptom and food-description text and voice recordings are not automatically included in those summaries.
-
-Ask my journal uses your question and the supported field names to propose filters. Journal entries are not sent to that model for interpretation; matching counts and summaries are calculated by the app after you review the filters. Anything you type into the question is part of the input, so avoid including information you do not want processed.
+On-device AI reflections use the available on-device Apple Intelligence model, without automatic cloud fallback. AI Suggestions uses structured summaries to select existing ideas or write reflection questions. Private note, treatment, symptom and food-description text and voice recordings are not automatically included in those summaries.
 
 The app does not save questions and answers as a persistent conversation or include AI-generated reflection questions in exported reports. Temporary results clear when the relevant screen or selection changes. Apple Intelligence availability depends on your device, software, language, region, settings and model readiness. AI can be wrong; see [Important limitations](DISCLAIMERS.md).
 
-## Optional Siri access
+## Cloud-assisted suggestions
 
-Siri access starts off and requires confirmation in Settings. App actions require local-device authentication and open Mood Tracker. Turning access off blocks future journal reads through these app actions.
+Cloud-assisted suggestions are disabled. This version does not send journal summaries to a cloud AI service.
 
-Your spoken or typed question and structured results such as matching dates, moods and numerical summaries may be processed or spoken by Siri. Private journal text and recordings are excluded from the app's Siri answers. Apple's Siri processing and settings apply; the app's on-device-only AI design is not a promise that every Siri interaction stays on-device. Review [Apple's Siri privacy information](https://www.apple.com/legal/privacy/data/en/ask-siri-dictation/). Turning the app option off does not erase past Siri interactions.
+## Disabled journal assistant and Siri actions
+
+Ask my journal and its Siri shortcuts are disabled in this version. Saved preferences or previously created shortcuts cannot enable journal reads through those actions. The update does not erase past Siri interactions; manage those through Apple’s Siri settings.
 
 ## Microphone and notifications
 
@@ -53,9 +53,11 @@ Reminders are local notifications. Permission is requested when you choose to en
 
 ## Retention and deletion
 
-Journal entries remain in device storage until you delete them or remove the app. Uninstalling removes the local app data; export a backup first if you want to keep it. Edit/delete individual check-ins, or use Delete all check-ins in Settings. Save edits to commit voice-note removals.
+New installations keep check-ins until you delete them. Explicitly saved history periods remain selected; choose unlimited or 7–365 days in Settings. Today explains the choice and shows upcoming expiry within 7 days. Older check-ins and recordings remain until you review and confirm removal, including after restore or sync. Increasing the period cannot recover deleted entries. Confirmed deletions propagate through private sync. Life events remain until explicitly deleted. Exported files, device backups and previously published online reports are separate. Uninstalling removes local data; export a backup first if you want to keep it. Settings → Delete all journal data removes check-ins and life events.
 
-With private sync enabled, deletion markers synchronize to prevent older copies from returning. Completion requires successful sync; an offline device or disabled sync can leave cloud copies unchanged. Disabling sync alone does not delete cloud data. The app retains deletion identifiers to support merging. Manage iCloud storage and device backups through Apple's controls where available. Remove a published Circle report separately in Circle. Exports and copies held by recipients must be managed separately.
+Optional what-helped feedback and life-event titles/details are private journal data. Full backups and optional private iCloud sync include them; AI and shared reports exclude them. Optional app lock uses system Face ID, Touch ID or device passcode; the app does not collect biometric data. The app switcher conceals journal screens. Exported copies are not protected by this app lock.
+
+With private sync enabled, deletion markers synchronize to prevent older copies from returning. Completion requires successful sync; an offline device or disabled sync can leave cloud copies unchanged. Disabling sync alone does not delete cloud data. The app retains deletion identifiers to support merging. Manage iCloud storage and device backups through Apple's controls where available. Previously published online reports from older versions are not automatically deleted by this update. Exports and copies held by recipients must be managed separately.
 
 The developer cannot delete files on your device, copies held by your recipients or data controlled by your Apple account on your behalf. Contact support for help identifying the appropriate controls. If you voluntarily send information to support, you may request deletion of that correspondence; any applicable legal retention obligations may limit deletion.
 

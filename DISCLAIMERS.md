@@ -1,6 +1,6 @@
 # Important limitations
 
-Last updated: September 26, 2026
+Last updated: September 29, 2026
 
 ## Personal reflection, not medical care
 
@@ -14,17 +14,17 @@ The app does not monitor your safety, detect emergencies, contact emergency serv
 
 Your journal reflects what you chose to record, when you recorded it and the optional fields you completed. Unrecorded days and missing ratings mean unknown. Mood frequency is not a diagnosis or a measure of emotional severity. Heat-map shading represents check-in counts. Logging more often can change the apparent pattern.
 
-Comparisons and associations do not prove that one activity, habit or treatment caused a change. Small or uneven samples can be misleading. Filters, date boundaries and time zones affect which records appear. Different scales should not be treated as interchangeable. Curved graph lines connect recorded points visually; they do not measure values between check-ins. Review dates, counts, scales and original values before drawing conclusions.
+Comparisons and associations do not prove that one activity, habit or treatment caused a change. Small or uneven samples can be misleading. Filters, date boundaries and time zones affect which records appear. Different scales should not be treated as interchangeable. Graph lines connect recorded points visually; they do not measure values between check-ins. Review dates, counts, scales and original values before drawing conclusions.
 
 ## AI can make mistakes
 
-AI-generated questions and suggested query filters may be inaccurate, incomplete, unsuitable or inconsistent. They are not personalized medical advice and have not established a diagnosis or an ideal target for you. Skip reflections that do not help. Review interpreted filters before viewing a summary; a mathematically correct summary can still answer the wrong question if the filters are wrong.
+AI-generated reflection questions may be inaccurate, incomplete, unsuitable or inconsistent. They are not personalized medical advice and have not established a diagnosis or an ideal target for you. Skip reflections that do not help. Review the dates, recorded values and source information accompanying a reflection.
 
 Source-linked general wellbeing information may be useful background, but a research finding does not establish that a suggestion is appropriate for a particular person. Links are informational, not endorsements by the publisher, researcher, Apple or a clinician. The app does not invent medically optimal graph values.
 
 ## Optional services and availability
 
-Apple Intelligence, Siri, iCloud and notifications depend on supported hardware, software, settings and service availability. Permissions can be denied or revoked. Sync, reminders, sharing and AI responses are not guaranteed to be available or immediate. The journal's manual features remain useful without optional AI. A successful local save is not proof that a cloud backup or shared snapshot has updated.
+Apple Intelligence, iCloud and notifications depend on supported hardware, software, settings and service availability. Permissions can be denied or revoked. Sync, reminders, sharing and AI responses are not guaranteed to be available or immediate. The journal's manual features remain useful without optional AI. A successful local save is not proof that a cloud copy has updated.
 
 ## Backups and sharing
 

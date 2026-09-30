@@ -5,6 +5,7 @@ Public documentation only. App source remains in its separate private repository
 - [Privacy policy](PRIVACY_POLICY.md)
 - [Support guide](SUPPORT.md)
 - [Important limitations](DISCLAIMERS.md)
+- [Release notes](RELEASE_NOTES.md)
 
 Contact: [gmb234789@gmail.com](mailto:gmb234789@gmail.com)
 

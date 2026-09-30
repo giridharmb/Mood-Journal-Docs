@@ -4,7 +4,7 @@ For help or privacy questions, email [gmb234789@gmail.com](mailto:gmb234789@gmai
 
 ## Before contacting support
 
-Include your app version/build (shown in Settings), iPhone model, iOS version, the feature involved, the exact error message and steps to reproduce it. Say whether it happens every time. A redacted screenshot or fictional example is usually better than a journal export. Never send passwords, Apple account credentials, recordings or a full journal unless you deliberately choose to share information needed for support.
+Include your app version/build (shown in Settings), iPhone or iPad model, system version, the feature involved, the exact error message and steps to reproduce it. Say whether it happens every time. A redacted screenshot or fictional example is usually better than a journal export. Never send passwords, Apple account credentials, recordings or a full journal unless you deliberately choose to share information needed for support.
 
 ## Start with a check-in
 
@@ -16,25 +16,29 @@ Use Settings → Export full backup before reinstalling, moving devices or troub
 
 If the journal cannot be opened, preserve it and contact support. Do not uninstall to clear an error unless you already have a verified backup or successful cloud copy. The app preserves unreadable storage instead of silently replacing it. Restore merges supported backups; it does not promise to undo every later edit. Update all syncing devices before restoring backups from a newer app version.
 
-The complete journal has a 20 MB size limit. Voice notes use some of this capacity. If saving reports a size limit, export a backup before selectively removing unneeded recordings. Check available iPhone storage as well.
+The complete journal has a 20 MB size limit. Voice notes use some of this capacity. If saving reports a size limit, export a backup before selectively removing unneeded recordings. Check available device storage as well.
 
 ## Insights, charts and Visualize
 
 Insights summarizes the selected entries. Open More charts & details or the comparison sections for additional views; Show/Hide expands or collapses details. If a chart is empty, check the date range, filters and whether the relevant optional ratings were recorded. Missing values are not treated as zero. Some comparisons need several rated days.
 
-Visualize shows calendar heat maps. A mood's hue identifies it; stronger shading means more check-ins of that mood that day, not stronger emotions. Mixed days can have multiple colors. Select a mood, date range, Since beginning or custom dates/times to change the view, and tap a day for counts. Smooth lines are visual interpolation between recorded points, not additional observations.
+Visualize shows calendar heat maps. Mood mix uses colored strips proportional to the recorded mood counts. Frequency uses shading for the number of check-ins, not emotional intensity. Mixed days can have multiple colors. Select a mood, date range, Since beginning or custom dates/times to change the view, and tap a day for counts. Lines connect recorded observations and preserve missing-day gaps; they are not additional observations.
 
-## AI Suggestions and Ask my journal
+## Optional AI reflections
 
-AI is optional and starts off. It requires a compatible Apple Intelligence device, supported software/settings and a ready on-device model. A ready model alone does not guarantee enough check-in data for AI Suggestions. Add relevant optional ratings across different days, widen the date range or remove restrictive filters. The app explains when there are no eligible suggestions.
+On-device AI reflections start off. They require a compatible Apple Intelligence device, supported software/settings and a ready on-device model. Open Insights → Trends & AI suggestions. The Settings history window defaults to 14 days and can be adjusted from 3 to 90 days independently of dashboard filters. Sparse records may not provide eligible suggestions. Generation can time out; use the non-AI summaries and try again later. AI does not diagnose a condition or determine ideal health targets.
 
-Ask my journal can also use manual filters without AI. When using AI to interpret a question, review the proposed dates, mood and other filters before showing the answer. Unsupported or ambiguous questions may need clarification. AI does not diagnose a condition or determine ideal health targets.
+Cloud-assisted AI, Ask my journal and Siri journal actions are disabled. Older shortcuts cannot read your journal through these actions. No cloud AI fallback is used.
 
-## Siri
+## Journal privacy and history
 
-Enable Allow Siri to access check-ins in Settings and read the confirmation. The app offers actions to find check-ins, ask your journal or prepare a report. Try “Find check-ins in Mood Tracker” or use the actions in Apple's Shortcuts app. Siri may ask you to unlock the device. A question that uses AI interpretation also requires the separate Ask my journal AI setting and a ready model.
+Settings → Journal privacy offers a lock using Face ID, Touch ID or your device passcode. Device authentication is required to change the lock. Shared files are outside this protection.
 
-If an action is unavailable, check the app's Siri setting, device Siri settings and installed app version. Opening Mood Tracker after an update may help the system discover its actions. Spoken recognition depends on Apple's language and device support. Disabling app access blocks future reads but does not erase Siri history.
+New installations keep check-ins until you delete them. Settings lets you choose unlimited history or a period from 7 to 365 days. Older entries wait for review and confirmation; choosing a period does not cause silent deletion on startup or sync. Back up first. Life events remain until explicitly deleted.
+
+## Personal insights
+
+Insights → Weekly recap & personal insights includes descriptive weekly comparisons, a personal baseline, things you recorded as helpful, and life events. These views require enough rated days and use all check-ins independently of dashboard filters. A before/after difference does not show that a life event caused a change.
 
 ## Voice notes
 
@@ -46,19 +50,17 @@ Open a check-in, record a note, stop and play it back, then Save. Add another vo
 
 Open Settings → Reminders & notifications, enable reminders, choose your schedule and Save. Allow notifications when asked. If reminders do not arrive, check iPhone notification permission, Focus, sound and scheduling settings. iOS can delay or silence delivery. Turn reminders off and Save to cancel the schedule. Tapping a reminder opens Today without logging a mood automatically.
 
-## iCloud and Circle
+## Private iCloud sync
 
-Private journal sync and Circle are separate features. Enable private sync only if you want the complete journal, including notes and recordings, stored in your private iCloud database. Check internet access, Apple account sign-in and the sync status message. Turning sync off does not delete the cloud copy.
+Enable private sync only if you want the complete journal, including notes, recordings, life events and what-helped feedback, stored in your private iCloud database. Check internet access, Apple account sign-in and the sync status message. Sync happens while the app is active; confirm success before relying on recovery on another device. Turning sync off does not delete the cloud copy. Update all syncing devices before using the newest journal format.
 
-In Circle, first review and publish a snapshot before managing invitations. A missing report or zone can mean nothing has been published yet or that the report was removed. Manage people through Apple's sharing controls. Recipients need a compatible installed app and iCloud access. Refresh to retrieve changes. Report persistent errors with their exact text; do not repeatedly delete data to fix sharing.
+Circle invitations and online report publication are retired. This update does not automatically delete reports previously published by older versions or recall recipients’ copies. Contact support if you need help with a previously published report; do not delete your journal to troubleshoot sharing. The app does not automatically send alerts to friends or clinicians.
 
-Remove a participant or the published report to revoke future access. Copies already saved by recipients cannot be recalled. The app does not automatically send alerts to friends or clinicians.
+## PDF reports and full backups
 
-## PDF and other exports
+Open Insights → PDF & report sharing, or Reports → Choose report & preview PDF. Choose Current selection, All check-ins or a Custom date/time range. Check the matching count, optionally include the mood heat map, and preview the PDF before sharing. No website or iCloud account is required to generate the file. If a report is too large, narrow the date range or filters.
 
-Open Insights → Share report. Choose Current selection, All check-ins or a Custom date/time range. Check the matching count, optionally include the mood heat map, and preview the PDF before sharing. No website or iCloud account is required to generate the file. If a report is too large, narrow the date range or filters.
-
-Voice recordings are excluded from PDF/HTML/CSV. Private text is excluded unless you explicitly enable it for ordinary reports. Assistant reports exclude private text. Full JSON backups contain private text and recordings. After sharing, the receiving service controls its copy.
+Voice recordings, life events and what-helped feedback are excluded from PDF reports. Other private text is excluded unless you explicitly enable it. Full JSON backups contain the complete journal, including private text and recordings. After sharing, the receiving service controls its copy. HTML/CSV sharing and online publication are not available in this version.
 
 ## Readability and accessibility
 
