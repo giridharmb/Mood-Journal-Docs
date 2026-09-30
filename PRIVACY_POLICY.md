@@ -1,6 +1,6 @@
 # Mood Tracker privacy policy
 
-Effective date: September 29, 2026
+Effective date: September 30, 2026
 
 This policy describes Mood Tracker's journal app, optional features, support correspondence and these documentation pages. For privacy questions, contact [gmb234789@gmail.com](mailto:gmb234789@gmail.com).
 
@@ -67,9 +67,9 @@ With private sync enabled, deletion markers synchronize to prevent older copies 
 
 The developer cannot delete files on your device, copies held by your recipients or data controlled by your Apple account on your behalf. Contact support for help identifying the appropriate controls. If you voluntarily send information to support, you may request deletion of that correspondence; any applicable legal retention obligations may limit deletion.
 
-## App purchase
+## App Store distribution
 
-Apple handles payment for the app through the App Store. Mood Tracker does not request, receive or store your payment-card or bank details. This version has no in-app purchases or subscription billing. Apple’s purchase and payment privacy practices apply to your App Store transaction.
+Mood Tracker is free to download, with no in-app purchases, subscriptions or advertising. The app does not request, receive or store your payment-card or bank details. Apple’s privacy practices apply to your use of the App Store.
 
 ## Support and diagnostics
 
