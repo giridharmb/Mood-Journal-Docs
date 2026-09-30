@@ -10,6 +10,10 @@ Include your app version/build (shown in Settings), iPhone or iPad model, system
 
 On Today, tap a mood to save a timestamped check-in. Use Add details or open the entry in Journal for optional ratings, context, written notes and voice notes. Optional fields can remain empty. Use Save to keep edits; Cancel leaves the saved entry unchanged.
 
+## Choose several feelings
+
+Open Explore feelings on Today. Browse the alphabetical list or search, select up to 12 words, choose a main mood, then save one check-in. Earlier saved feeling paths remain visible in existing entries. Update every syncing device to build 4 or later before using the new selector.
+
 ## Protect and recover your journal
 
 Use Settings → Export full backup before reinstalling, moving devices or troubleshooting storage. A full backup includes private text and voice recordings; store it somewhere you trust. Reports are not a complete replacement for a JSON backup.

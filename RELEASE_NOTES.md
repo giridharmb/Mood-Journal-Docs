@@ -1,6 +1,6 @@
 # Mood Tracker release notes
 
-Updated September 29, 2026. These notes describe the current release candidate. App Store availability and approval are not yet confirmed.
+Updated September 30, 2026. These notes describe the current release candidate. App Store availability and approval are not yet confirmed.
 
 ## Version 1.0 candidate
 
@@ -14,6 +14,8 @@ Updated September 29, 2026. These notes describe the current release candidate. 
 - Optional on-device AI reflection questions require a compatible Apple Intelligence device and a ready model. Cloud-assisted AI is disabled.
 
 ## Changes for existing test installations
+
+Explore feelings now offers an alphabetical list of the app’s 44 mood words. Existing saved feeling paths remain readable, editable, searchable and included in charts and reports. Update all syncing devices to build 4 or later before saving new selections; older test builds may reject newer labels.
 
 Circle invitations and online report publication are retired. Reports now opens PDF sharing. Previously published reports and recipients’ saved copies are not automatically removed. Ask my journal and its Siri shortcuts are disabled.
 
