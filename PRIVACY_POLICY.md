@@ -11,6 +11,12 @@ This policy describes Mood Tracker's journal app, optional features, support cor
 - The app has no advertising, tracking or third-party analytics SDK and does not sell journal data.
 - Sharing and full backups can disclose sensitive information. Review what you share.
 
+## How the app handles your information
+
+Mood Tracker uses your entries to save your journal, display your history, calculate descriptive charts and create reports you request. The app does not automatically send your journal to the developer. Optional sync stores it in your own private iCloud database; the app has no developer-operated journal server. On-device AI does not send your entries to a cloud AI provider.
+
+Information can leave your device when you enable private iCloud sync, export or share a file, send a support email, or use Apple’s backup or diagnostic-sharing services. These are different flows, described below. The app does not collect your location, contacts, advertising identifier or biometric template.
+
 ## Information in your journal
 
 The app stores the information you choose to enter: moods and detailed feelings; dates, times and time zones; optional ratings such as wellbeing, stress, energy and sleep; activities and other factors; food and drink details; written notes, treatment changes and symptoms; and optional voice recordings. Record identifiers, edit timestamps and deletion markers support saving and synchronization.
@@ -61,9 +67,13 @@ With private sync enabled, deletion markers synchronize to prevent older copies 
 
 The developer cannot delete files on your device, copies held by your recipients or data controlled by your Apple account on your behalf. Contact support for help identifying the appropriate controls. If you voluntarily send information to support, you may request deletion of that correspondence; any applicable legal retention obligations may limit deletion.
 
+## App purchase
+
+Apple handles payment for the app through the App Store. Mood Tracker does not request, receive or store your payment-card or bank details. This version has no in-app purchases or subscription billing. Apple’s purchase and payment privacy practices apply to your App Store transaction.
+
 ## Support and diagnostics
 
-Emailing support supplies your email address, message and any attachments to the support mailbox and its email provider. This information is used to respond to your request and investigate reported problems. Correspondence may remain in that mailbox after the issue is resolved; request deletion if desired. Do not send your journal, recordings, passwords or Apple account credentials. Redact screenshots and use fictional examples when possible.
+The app’s support link opens your mail application and does not automatically attach journal data or diagnostic logs. Emailing support supplies your email address, message and any attachments to the support mailbox and its email provider. This information is used to respond to your request and investigate reported problems. Correspondence may remain in that mailbox after the issue is resolved; request deletion if desired. Do not send your journal, recordings, passwords or Apple account credentials. Redact screenshots and use fictional examples when possible.
 
 Apple may make crash reports, device/app diagnostics and feedback available through TestFlight or device analytics-sharing settings. These may include technical details about the app, device and failure. The app does not add a separate third-party crash-reporting service. Reports and diagnostics are used to investigate reliability problems.
 
